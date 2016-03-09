@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Nunjucks 範例]]></title>
-    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic/"/>
-    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic/</id>
+    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic-usage/"/>
+    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic-usage/</id>
     <published>2016-03-09T18:14:39.000Z</published>
     <updated>2016-03-09T18:35:37.490Z</updated>
     <content type="html"><![CDATA[<h1 id="Nunjucks__u6574_u5408_u7BC4_u4F8B"><a href="#Nunjucks__u6574_u5408_u7BC4_u4F8B" class="headerlink" title="Nunjucks 整合範例"></a>Nunjucks 整合範例</h1><h2 id="u57FA_u672C_u7528_u6CD5"><a href="#u57FA_u672C_u7528_u6CD5" class="headerlink" title="基本用法"></a>基本用法</h2><ul>

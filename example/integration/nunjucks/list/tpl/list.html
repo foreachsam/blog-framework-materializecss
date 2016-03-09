@@ -1,0 +1,13 @@
+<!--
+// http://mozilla.github.io/nunjucks/templating.html#for
+// http://materializecss.com/collections.html
+//-->
+
+
+	<ul class="collection">
+	{% for item in list %}
+		<li class="collection-item">
+			<a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>

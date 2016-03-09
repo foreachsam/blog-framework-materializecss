@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Scroll To Top </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- https://design.google.com/icons/ //-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- https://cdnjs.com/libraries/materialize //-->
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"  media="screen,projection"/>
+
+<!-- https://cdnjs.com/libraries/jquery //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- https://cdnjs.com/libraries/jqueryui/ //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<!-- https://cdnjs.com/libraries/materialize //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+
+</head>
+<body>
+
+<style type="text/css">
+.ui-btn-top-hide {
+	position: fixed;
+	bottom: 20px;
+	right: 5px;
+	/*display: none;*/
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	var btnTopHide = '.ui-btn-top-hide';
+
+	$(btnTopHide).hide();
+
+	$(document).on('click', btnTopHide, function(evt) {
+		evt.preventDefault();
+		var target = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+		$(target).animate({scrollTop : 0}, 1000, 'easeOutBounce'); //http://api.jquery.com/animate/
+		//https://jqueryui.com/easing/
+	});
+
+	$(window).on('scroll', function(){
+		if ($(this).scrollTop() > 100) {
+			$(btnTopHide).fadeIn();
+		} else {
+			$(btnTopHide).fadeOut();
+		}
+	});
+
+});
+</script>
+
+<a name="top"></a>
+
+<div style="height:1600px">content</div>
+
+<!-- https://design.google.com/icons/#ic_keyboard_arrow_up //-->
+<a href="#top" class="btn-floating btn-large waves-effect waves-light lighten-2 red ui-btn-top-hide"><i class="material-icons">keyboard_arrow_up</i></a>
+
+</body>
+</html>

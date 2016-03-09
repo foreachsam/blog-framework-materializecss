@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Nunjucks </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- https://design.google.com/icons/ //-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- https://cdnjs.com/libraries/materialize //-->
+<link type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
+
+<!-- https://cdnjs.com/libraries/jquery //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- https://cdnjs.com/libraries/jqueryui/ //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<!-- https://cdnjs.com/libraries/materialize //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+<!-- https://cdnjs.com/libraries/nunjucks //-->
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nunjucks/2.3.0/nunjucks-slim.min.js"></script>//-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nunjucks/2.3.0/nunjucks.min.js"></script>
+
+
+</head>
+<body>
+
+<!-- http://mozilla.github.io/nunjucks/cn/getting-started.html //-->
+
+<style type="text/css">
+#link_list {
+	display: none;
+}
+</style>
+
+<div class="container">
+	<button class="btn" id="refresh_list">重新載入</button>
+	<main id="content">
+		<div id="link_list">
+		</div>
+	</main>
+</div>
+
+<script type="text/javascript">
+
+!function(global, $) {
+	var app = {
+		api: {
+			findList: 'api/list.json'
+		},
+		ui: {
+			list: '#link_list',
+			btn: {
+				refresh: '#refresh_list'
+			}
+		},
+		easing: [],
+		effects: [
+			"blind",
+			"bounce",
+			"clip",
+			"explode",
+			"fold",
+			"highlight",
+			"puff",
+			"pulsate",
+			"scale",
+			"shake",
+			"size",
+			"slide",
+		],
+		pickRandomIndex: function(min, max) {
+			return Math.floor(Math.random()*(max-min+1)+min);
+		},
+		pickEasing: function() {
+			var i = this.pickRandomIndex(0, this.easing.length-1);
+			return this.easings[i];
+		},
+		pickEffect: function() {
+			var i = this.pickRandomIndex(0, this.effects.length-1);
+			return this.effects[i];
+		},
+		showList: function() {
+			var effect = this.pickEffect();
+			console.log(effect);
+			$(this.ui.list).hide(effect);
+			$(this.ui.list).show(effect); //https://jqueryui.com/easing/
+			return this;
+		},
+		renderList: function(target, data) {
+			target = $(target);
+			nunjucks.configure('tpl', {autoescape: true});
+			var html = nunjucks.render('list.html', data);
+			target.html(html);
+
+			return this;
+		},
+		refreshList: function(data) {
+			this.renderList(this.ui.list, data);
+			this.showList();
+			return this;
+		},
+		findList: function(args) {
+			var self = this;
+			//http://api.jquery.com/jquery.ajax/
+			var xhr = $.ajax({
+					url: self.api.findList,
+					method: 'POST',
+					data: args,
+					dataType: 'json'
+				})
+				.done(function(rs) {
+
+					var cmd = rs.cmd;
+					if (cmd != 1) {
+						return;
+					}
+					self.refreshList(rs);
+				})
+				.fail(function() {
+					alert( "error" );
+				})
+				/*
+				.always(function() {
+					alert( "complete" );
+				})
+				*/
+			;
+
+			return this;
+		},
+		bindEvent: function() {
+			var self = this;
+			$(this.ui.btn.refresh).on('click', function() {
+				self.findList();
+			});
+		},
+		init: function() {
+			var self = this;
+			$.each($.easing, function( name, impl ) {
+				//https://jqueryui.com/resources/demos/effect/easing.html
+				self.easing.push(name);
+			});
+
+			this.bindEvent();
+			return this;
+		},
+		run: function() {
+			this.init();
+			this.findList({});
+			return this;
+		}
+	};
+	global.app = app;
+}(window, jQuery);
+
+$(document).ready(function(){
+	window.app
+		.run()
+	;
+});
+</script>
+
+</body>
+</html>

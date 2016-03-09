@@ -1,0 +1,10 @@
+{
+    "name": "materialize demo",
+    "description": "test materialize bower",
+    "dependencies": {
+        "materialize": null,
+        "jquery": null
+    },
+    "license": "MIT",
+    "homepage": ""
+}

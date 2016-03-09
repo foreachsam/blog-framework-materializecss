@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title> button - scroll to top | Materializecss 探索 </title>
+	<meta property="og:title" content=" button - scroll to top | Materializecss 探索 " />
+	<meta name="twitter:title" content=" button - scroll to top | Materializecss 探索 ">
+
+	<meta property="og:type" content="article">
+	<meta name="twitter:card" content="summary">
+
+	<meta name="description" content=" scroll to top 按鈕範例 ">
+	<meta property="og:description" content=" scroll to top 按鈕範例 " />
+	<meta name="twitter:description" content=" scroll to top 按鈕範例 " />
+
+	<link rel="icon" type="image/x-icon" href="http://foreachsam.github.io/blog-framework-materializecss/article/asset/img/favicon.png">
+
+	<link rel="image_src" href="http://foreachsam.github.io/blog-framework-materializecss/article/asset/img/logo.png" >
+	<meta property="og:image" content="http://foreachsam.github.io/blog-framework-materializecss/article/asset/img/logo.png" />
+
+	<link href="http://foreachsam.github.io/blog-framework-materializecss/article/atom.xml" title="Materializecss 探索" type="application/atom+xml" rel="alternative">
+
+	<link rel="canonical" href="/blog-framework-materializecss/article/read/extend/button-scroll_to_top/index.html">
+
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	<link type="text/css" rel="stylesheet" href="/blog-framework-materializecss/article/asset/css/style.css">
+	<link type="text/css" rel="stylesheet" href="/blog-framework-materializecss/article/asset/lib/sys.css">
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script> //-->
+	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script> //-->
+	<script src="/blog-framework-materializecss/article/asset/lib/sys.js"></script>
+
+</head>
+
+<body>
+
+	<div class="navbar-fixed">
+		<nav class="red lighten-2" role="navigation">
+			<div class="nav-wrapper">
+				<div class="box-main-title">
+					<a href="/blog-framework-materializecss/article/" class="brand-logo">Materializecss 探索</a>
+				</div>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
+
+					<ul class="right hide-on-med-and-down">
+
+						<li ><a href="/blog-framework-materializecss/article/">Home</a></li>
+
+						<li ><a href="/blog-framework-materializecss/article/find/archive/">Sitemap</a></li>
+
+						<li ><a href="http://materializecss.com/">Materialize</a></li>
+
+						<li ><a href="https://design.google.com/icons/">MaterialIcons</a></li>
+
+					</ul>
+					<div class="side-nav" id="mobile-demo">
+						<div class="box-logo"><a href="/blog-framework-materializecss/article/" title="Materializecss 探索"><img src="/blog-framework-materializecss/article/asset/img/logo.png" class="img-logo"></a></div>
+
+						<ul>
+
+						<li ><a href="/blog-framework-materializecss/article/" class="waves-effect waves-light">Home</a></li>
+
+						<li ><a href="/blog-framework-materializecss/article/find/archive/" class="waves-effect waves-light">Sitemap</a></li>
+
+						<li ><a href="http://materializecss.com/" class="waves-effect waves-light">Materialize</a></li>
+
+						<li ><a href="https://design.google.com/icons/" class="waves-effect waves-light">MaterialIcons</a></li>
+
+						</ul>
+					</div>
+
+<script type="text/javascript">
+$(function(){
+	$(".button-collapse").sideNav();
+});
+</script>
+
+
+
+			</div>
+		</nav>
+	</div>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="layout-content">
+
+
+				<div class="row panel-content panel-post-item">
+					<div class="box-post-item">
+						<article class="post-item" itemscope itemtype="http://schema.org/Article">
+
+
+
+
+							<p class="content-meta">
+								<span class="meta-date" itemprop="datePublished" content="2016-02-28">2016-02-28</span>
+
+
+									<span class="meta-category">
+
+<a class="category-link" href="/blog-framework-materializecss/article/find/category/extend/">extend</a>, <a class="category-link" href="/blog-framework-materializecss/article/find/category/extend/component/">component</a>, <a class="category-link" href="/blog-framework-materializecss/article/find/category/extend/component/button/">button</a>
+									</span>
+
+							</p>
+
+
+							<h2 class="box-content-title">
+								<a href="/blog-framework-materializecss/article/read/extend/button-scroll_to_top/"  itemprop="url"><span class="content-title" itemprop="name">button - scroll to top</span></a>
+							</h2>
+
+							<div class="content post-item-content" itemprop="articleBody">
+
+<h1 id="scroll_to_top__u6309_u9215_u7BC4_u4F8B"><a href="#scroll_to_top__u6309_u9215_u7BC4_u4F8B" class="headerlink" title="scroll to top 按鈕範例"></a>scroll to top 按鈕範例</h1><h2 id="Velocity__u7248"><a href="#Velocity__u7248" class="headerlink" title="Velocity 版"></a>Velocity 版</h2><ul>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/velocity/prototype.html">prototype</a></li>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/velocity/prototype-hide.html">prototype-hide</a></li>
+</ul>
+<h2 id="jQuery__26amp_3B_jQuery_UI__u7248"><a href="#jQuery__26amp_3B_jQuery_UI__u7248" class="headerlink" title="jQuery &amp; jQuery UI 版"></a>jQuery &amp; jQuery UI 版</h2><ul>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/jquery/prototype.html">prototype</a></li>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/jquery/prototype-hide.html">prototype-hide</a></li>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/jquery/prototype-hide-easing.html">prototype-hide-easing</a></li>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/jquery/prototype-hide-easing-compatible.html">prototype-hide-easing-compatible</a></li>
+</ul>
+<h2 id="u67E5_u8A62_u95DC_u9375_u5B57"><a href="#u67E5_u8A62_u95DC_u9375_u5B57" class="headerlink" title="查詢關鍵字"></a>查詢關鍵字</h2><ul>
+<li><a href="https://www.google.com.tw/#q=scroll+to+top+button" target="_blank" rel="external">scroll to top button</a></li>
+<li><a href="https://www.google.com.tw/#q=back+to+top+button" target="_blank" rel="external">back to top button</a></li>
+</ul>
+<h2 id="u53C3_u8003_u6587_u7AE0"><a href="#u53C3_u8003_u6587_u7AE0" class="headerlink" title="參考文章"></a>參考文章</h2><ul>
+<li><a href="http://www.paulund.co.uk/how-to-create-an-animated-scroll-to-top-with-jquery" target="_blank" rel="external">How To Create An Animated Scroll To Top Button With jQuery</a></li>
+<li><a href="http://abgne.tw/jquery/apply-jquery/jquery-scroll-to-page-top.html" target="_blank" rel="external">[jQ]用 jQuery 控制網頁捲軸移動</a></li>
+</ul>
+<h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><ul>
+<li>Velocity / <a href="http://julian.com/research/velocity/#scroll" target="_blank" rel="external">Scroll</a></li>
+<li>jQuery UI / <a href="https://jqueryui.com/easing/" target="_blank" rel="external">Easing</a></li>
+<li>jQuery / <a href="http://api.jquery.com/animate/" target="_blank" rel="external">.animate()</a></li>
+<li>jQuery / <a href="http://api.jquery.com/scroll/" target="_blank" rel="external">.scroll()</a></li>
+<li>jQuery / <a href="https://api.jquery.com/scrollTop/" target="_blank" rel="external">.scrollTop()</a></li>
+<li>jQuery / <a href="http://api.jquery.com/click/" target="_blank" rel="external">.click()</a></li>
+<li>jQuery / <a href="https://api.jquery.com/ready/" target="_blank" rel="external">.ready()</a></li>
+<li>jQuery / <a href="https://api.jquery.com/on/" target="_blank" rel="external">.on()</a></li>
+<li>jQuery / <a href="https://api.jquery.com/live/" target="_blank" rel="external">.live()</a> (Deprecated. But read concept)</li>
+<li>jQuery / <a href="https://api.jquery.com/event.preventDefault/" target="_blank" rel="external">event.preventDefault()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll" target="_blank" rel="external">Window.scroll()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo" target="_blank" rel="external">Window.scrollTo()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload" target="_blank" rel="external">GlobalEventHandlers.onload</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/Events/load" target="_blank" rel="external">load</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick" target="_blank" rel="external">GlobalEventHandlers.onclick</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/Events/click" target="_blank" rel="external">click</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers" target="_blank" rel="external">DOM on-event handlers</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank" rel="external">EventTarget.addEventListener()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault" target="_blank" rel="external">Event.preventDefault()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void" target="_blank" rel="external">void operator</a></li>
+</ul>
+<h2 id="u6E90_u78BC_u53C3_u8003"><a href="#u6E90_u78BC_u53C3_u8003" class="headerlink" title="源碼參考"></a>源碼參考</h2><ul>
+<li>github / materialize / js / <a href="https://github.com/Dogfalo/materialize/blob/master/js/buttons.js" target="_blank" rel="external">buttons.js</a></li>
+<li>github / jquery / src / <a href="https://github.com/jquery/jquery/blob/master/src/offset.js#L181" target="_blank" rel="external">offset.js</a></li>
+<li>github / jquery / src / <a href="https://github.com/jquery/jquery/blob/master/src/effects.js#L487" target="_blank" rel="external">effects.js</a></li>
+</ul>
+
+						</div>
+
+
+						<div class="content-tag">
+
+<a class="tag-link" href="/blog-framework-materializecss/article/find/tag/button/">button</a>, <a class="tag-link" href="/blog-framework-materializecss/article/find/tag/index/">index</a>
+
+						</div>
+
+
+
+						</article>
+					</div>
+
+				</div>
+
+				<div class="panel-post-nav">
+					<div class="center-align box-post-nav">
+
+
+					<a class="btn-floating  waves-effect waves-light red lighten-2" href="/blog-framework-materializecss/article/read/example/javascript-sidenav/" title="SideNav 範例索引"><i class="material-icons">keyboard_arrow_left</i></a>
+
+
+
+					<a class="btn-floating  waves-effect waves-light red lighten-2" href="/blog-framework-materializecss/article/read/example/component-button/" title="Button 範例索引"><i class="material-icons">keyboard_arrow_right</i></a>
+
+
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="layout-footer" style="clear: both">
+				<div class="panel-footer">
+					<div class="center-align box-footer">
+						<footer class="footer">
+							<p class="cr">&copy; <a href="https://foreachsam.github.io/" target="_blank" >foreachsam</a> </p>
+
+							<span class="theme">Powered: <a href="http://hexo.io/" target="_blank">Hexo</a>, Theme: <a href="https://github.com/foreachsam/hexo-theme-adequate" target="_blank">hexo-theme-adequate</a></span>
+						</footer>
+					</div>
+				</div>
+			</div>
+
+
+<a class="btn-floating waves-effect waves-light lighten-2 red ui-btn-top-hide"><i class="material-icons">keyboard_arrow_up</i></a>
+
+
+
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-56999876-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+
+
+		</div>
+	</div>
+
+</body>
+</html>

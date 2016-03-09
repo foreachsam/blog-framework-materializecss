@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Materializecss 探索]]></title>
+  <subtitle><![CDATA[Materializecss Exploration]]></subtitle>
+  <link href="/blog-framework-materializecss/article/atom.xml" rel="self"/>
+  <link href="http://foreachsam.github.io/blog-framework-materializecss/article/"/>
+  <updated>2016-03-09T18:35:37.490Z</updated>
+  <id>http://foreachsam.github.io/blog-framework-materializecss/article/</id>
+  
+  <author>
+    <name><![CDATA[foreachsam]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Nunjucks 範例]]></title>
+    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic/"/>
+    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic/</id>
+    <published>2016-03-09T18:14:39.000Z</published>
+    <updated>2016-03-09T18:35:37.490Z</updated>
+    <content type="html"><![CDATA[<h1 id="Nunjucks__u6574_u5408_u7BC4_u4F8B"><a href="#Nunjucks__u6574_u5408_u7BC4_u4F8B" class="headerlink" title="Nunjucks 整合範例"></a>Nunjucks 整合範例</h1><h2 id="u57FA_u672C_u7528_u6CD5"><a href="#u57FA_u672C_u7528_u6CD5" class="headerlink" title="基本用法"></a>基本用法</h2><ul>
+<li><a href="/blog-framework-materializecss/example/integration/nunjucks/basic/render-string.html">render</a></li>
+<li><a href="/blog-framework-materializecss/example/integration/nunjucks/basic/render-string-embed.html">render-string-embed</a></li>
+<li><a href="/blog-framework-materializecss/example/integration/nunjucks/basic/render.html">render</a></li>
+<li><a href="/blog-framework-materializecss/example/integration/nunjucks/basic/render-callback.html">render-callback</a></li>
+</ul>
+<h2 id="u9032_u968E_u61C9_u7528"><a href="#u9032_u968E_u61C9_u7528" class="headerlink" title="進階應用"></a>進階應用</h2><ul>
+<li><a href="/blog-framework-materializecss/example/integration/nunjucks/list/index.html">list</a></li>
+</ul>
+<h2 id="u76F8_u95DC_u7DB2_u5740"><a href="#u76F8_u95DC_u7DB2_u5740" class="headerlink" title="相關網址"></a>相關網址</h2><ul>
+<li><a href="https://mozilla.github.io/nunjucks/" target="_blank" rel="external">Nunjucks</a></li>
+<li><a href="https://github.com/mozilla/nunjucks" target="_blank" rel="external">GitHub</a></li>
+<li><a href="https://libraries.io/bower/nunjucks" target="_blank" rel="external">Bower</a></li>
+<li><a href="https://cdnjs.com/libraries/nunjucks" target="_blank" rel="external">CDN</a></li>
+<li><a href="https://www.npmjs.com/package/nunjucks" target="_blank" rel="external">NPM</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[Nunjucks 整合範例]]>
+    
+    </summary>
+    
+      <category term="button" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/button/"/>
+    
+      <category term="index" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+    
+      <category term="integrated" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/integrated/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[SideNav 範例索引]]></title>
+    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/example/javascript-sidenav/"/>
+    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/example/javascript-sidenav/</id>
+    <published>2016-02-29T06:33:27.000Z</published>
+    <updated>2016-02-29T06:40:48.662Z</updated>
+    <content type="html"><![CDATA[<h1 id="SideNav__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15"><a href="#SideNav__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15" class="headerlink" title="SideNav 範例練習索引"></a>SideNav 範例練習索引</h1><ul>
+<li><a href="http://materializecss.com/side-nav.html" target="_blank" rel="external">官方說明</a></li>
+</ul>
+<h2 id="u7DF4_u7FD2_u7BC4_u4F8B"><a href="#u7DF4_u7FD2_u7BC4_u4F8B" class="headerlink" title="練習範例"></a>練習範例</h2><ul>
+<li><a href="/blog-framework-materializecss/example/javascript/sidenav/basic/index.html">basic</a></li>
+<li><a href="/blog-framework-materializecss/example/javascript/sidenav/basic/option.html">basic-option</a></li>
+<li><a href="/blog-framework-materializecss/example/javascript/sidenav/control/index.html">control</a></li>
+<li><a href="/blog-framework-materializecss/example/javascript/sidenav/variation/dropdown.html">variation-dropdown</a></li>
+<li><a href="/blog-framework-materializecss/example/javascript/sidenav/variation/fullscreen.html">variation-fullscreen</a></li>
+<li><a href="/blog-framework-materializecss/example/javascript/sidenav/variation/fixed.html">variation-fixed</a></li>
+<li><a href="/blog-framework-materializecss/example/javascript/sidenav/variation/fixed-offset-content.html">variation-fixed-offset-content</a></li>
+</ul>
+<h2 id="u6E90_u78BC_u53C3_u8003"><a href="#u6E90_u78BC_u53C3_u8003" class="headerlink" title="源碼參考"></a>源碼參考</h2><ul>
+<li>github / materialize / js / <a href="https://github.com/Dogfalo/materialize/blob/master/js/sideNav.js" target="_blank" rel="external">sideNav.js</a></li>
+<li>github / materialize / sass / components / <a href="https://github.com/Dogfalo/materialize/blob/master/sass/components/_sideNav.scss" target="_blank" rel="external">_sideNav.scss</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[官方範例練習索引 - SideNav]]>
+    
+    </summary>
+    
+      <category term="index" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+    
+      <category term="sidenav" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/sidenav/"/>
+    
+      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+    
+      <category term="example" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/example/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[button - scroll to top]]></title>
+    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/extend/button-scroll_to_top/"/>
+    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/extend/button-scroll_to_top/</id>
+    <published>2016-02-28T08:22:39.000Z</published>
+    <updated>2016-02-28T10:41:54.870Z</updated>
+    <content type="html"><![CDATA[<h1 id="scroll_to_top__u6309_u9215_u7BC4_u4F8B"><a href="#scroll_to_top__u6309_u9215_u7BC4_u4F8B" class="headerlink" title="scroll to top 按鈕範例"></a>scroll to top 按鈕範例</h1><h2 id="Velocity__u7248"><a href="#Velocity__u7248" class="headerlink" title="Velocity 版"></a>Velocity 版</h2><ul>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/velocity/prototype.html">prototype</a></li>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/velocity/prototype-hide.html">prototype-hide</a></li>
+</ul>
+<h2 id="jQuery__26amp_3B_jQuery_UI__u7248"><a href="#jQuery__26amp_3B_jQuery_UI__u7248" class="headerlink" title="jQuery &amp; jQuery UI 版"></a>jQuery &amp; jQuery UI 版</h2><ul>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/jquery/prototype.html">prototype</a></li>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/jquery/prototype-hide.html">prototype-hide</a></li>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/jquery/prototype-hide-easing.html">prototype-hide-easing</a></li>
+<li><a href="/blog-framework-materializecss/example/extend/button/scroll-to-top/jquery/prototype-hide-easing-compatible.html">prototype-hide-easing-compatible</a></li>
+</ul>
+<h2 id="u67E5_u8A62_u95DC_u9375_u5B57"><a href="#u67E5_u8A62_u95DC_u9375_u5B57" class="headerlink" title="查詢關鍵字"></a>查詢關鍵字</h2><ul>
+<li><a href="https://www.google.com.tw/#q=scroll+to+top+button" target="_blank" rel="external">scroll to top button</a></li>
+<li><a href="https://www.google.com.tw/#q=back+to+top+button" target="_blank" rel="external">back to top button</a></li>
+</ul>
+<h2 id="u53C3_u8003_u6587_u7AE0"><a href="#u53C3_u8003_u6587_u7AE0" class="headerlink" title="參考文章"></a>參考文章</h2><ul>
+<li><a href="http://www.paulund.co.uk/how-to-create-an-animated-scroll-to-top-with-jquery" target="_blank" rel="external">How To Create An Animated Scroll To Top Button With jQuery</a></li>
+<li><a href="http://abgne.tw/jquery/apply-jquery/jquery-scroll-to-page-top.html" target="_blank" rel="external">[jQ]用 jQuery 控制網頁捲軸移動</a></li>
+</ul>
+<h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><ul>
+<li>Velocity / <a href="http://julian.com/research/velocity/#scroll" target="_blank" rel="external">Scroll</a></li>
+<li>jQuery UI / <a href="https://jqueryui.com/easing/" target="_blank" rel="external">Easing</a></li>
+<li>jQuery / <a href="http://api.jquery.com/animate/" target="_blank" rel="external">.animate()</a></li>
+<li>jQuery / <a href="http://api.jquery.com/scroll/" target="_blank" rel="external">.scroll()</a></li>
+<li>jQuery / <a href="https://api.jquery.com/scrollTop/" target="_blank" rel="external">.scrollTop()</a></li>
+<li>jQuery / <a href="http://api.jquery.com/click/" target="_blank" rel="external">.click()</a></li>
+<li>jQuery / <a href="https://api.jquery.com/ready/" target="_blank" rel="external">.ready()</a></li>
+<li>jQuery / <a href="https://api.jquery.com/on/" target="_blank" rel="external">.on()</a></li>
+<li>jQuery / <a href="https://api.jquery.com/live/" target="_blank" rel="external">.live()</a> (Deprecated. But read concept)</li>
+<li>jQuery / <a href="https://api.jquery.com/event.preventDefault/" target="_blank" rel="external">event.preventDefault()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll" target="_blank" rel="external">Window.scroll()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo" target="_blank" rel="external">Window.scrollTo()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload" target="_blank" rel="external">GlobalEventHandlers.onload</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/Events/load" target="_blank" rel="external">load</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick" target="_blank" rel="external">GlobalEventHandlers.onclick</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/Events/click" target="_blank" rel="external">click</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers" target="_blank" rel="external">DOM on-event handlers</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank" rel="external">EventTarget.addEventListener()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault" target="_blank" rel="external">Event.preventDefault()</a></li>
+<li>MDN / <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void" target="_blank" rel="external">void operator</a></li>
+</ul>
+<h2 id="u6E90_u78BC_u53C3_u8003"><a href="#u6E90_u78BC_u53C3_u8003" class="headerlink" title="源碼參考"></a>源碼參考</h2><ul>
+<li>github / materialize / js / <a href="https://github.com/Dogfalo/materialize/blob/master/js/buttons.js" target="_blank" rel="external">buttons.js</a></li>
+<li>github / jquery / src / <a href="https://github.com/jquery/jquery/blob/master/src/offset.js#L181" target="_blank" rel="external">offset.js</a></li>
+<li>github / jquery / src / <a href="https://github.com/jquery/jquery/blob/master/src/effects.js#L487" target="_blank" rel="external">effects.js</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[scroll to top 按鈕範例]]>
+    
+    </summary>
+    
+      <category term="button" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/button/"/>
+    
+      <category term="index" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+    
+      <category term="extend" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/extend/"/>
+    
+      <category term="component" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/extend/component/"/>
+    
+      <category term="button" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/extend/component/button/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Button 範例索引]]></title>
+    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/"/>
+    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/</id>
+    <published>2016-02-03T08:52:27.000Z</published>
+    <updated>2016-02-29T06:31:36.518Z</updated>
+    <content type="html"><![CDATA[<h1 id="Button__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15"><a href="#Button__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15" class="headerlink" title="Button 範例練習索引"></a>Button 範例練習索引</h1><ul>
+<li><a href="http://materializecss.com/buttons.html" target="_blank" rel="external">官方說明</a></li>
+</ul>
+<h2 id="u7DF4_u7FD2_u7BC4_u4F8B"><a href="#u7DF4_u7FD2_u7BC4_u4F8B" class="headerlink" title="練習範例"></a>練習範例</h2><ul>
+<li><a href="/blog-framework-materializecss/example/component/button/fixed-action-btn/programatically.html">fixed-action-btn-programatically</a></li>
+</ul>
+<h2 id="u6E90_u78BC_u53C3_u8003"><a href="#u6E90_u78BC_u53C3_u8003" class="headerlink" title="源碼參考"></a>源碼參考</h2><ul>
+<li>github / materialize / js / <a href="https://github.com/Dogfalo/materialize/blob/master/js/buttons.js" target="_blank" rel="external">buttons.js</a></li>
+<li>github / materialize / sass / components / <a href="https://github.com/Dogfalo/materialize/blob/master/sass/components/_buttons.scss" target="_blank" rel="external">_buttons.scss</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[官方範例練習索引 - Button]]>
+    
+    </summary>
+    
+      <category term="button" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/button/"/>
+    
+      <category term="index" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+    
+      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+    
+      <category term="example" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/example/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用 Bower]]></title>
+    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/start/bower/"/>
+    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/start/bower/</id>
+    <published>2016-02-02T13:59:48.000Z</published>
+    <updated>2016-02-29T11:22:27.397Z</updated>
+    <content type="html"><![CDATA[<h1 id="u793A_u7BC4_u5982_u4F55_u4F7F_u7528Bower_uFF0C_u4F86_u5957_u7528Materialize"><a href="#u793A_u7BC4_u5982_u4F55_u4F7F_u7528Bower_uFF0C_u4F86_u5957_u7528Materialize" class="headerlink" title="示範如何使用Bower，來套用Materialize"></a>示範如何使用Bower，來套用Materialize</h1><h2 id="Bower"><a href="#Bower" class="headerlink" title="Bower"></a>Bower</h2><ul>
+<li><a href="http://bower.io/" target="_blank" rel="external">bower</a></li>
+<li><a href="https://libraries.io/bower/jQuery" target="_blank" rel="external">jQuery</a></li>
+<li><a href="https://libraries.io/bower/materialize" target="_blank" rel="external">Materialize</a></li>
+<li><a href="https://libraries.io/bower/material-design-icons/" target="_blank" rel="external">Material Design icons</a></li>
+</ul>
+<h2 id="ICON"><a href="#ICON" class="headerlink" title="ICON"></a>ICON</h2><ul>
+<li><a href="https://design.google.com/icons/" target="_blank" rel="external">Material icons</a></li>
+</ul>
+<h2 id="u5C08_u6848_u7BC4_u4F8B"><a href="#u5C08_u6848_u7BC4_u4F8B" class="headerlink" title="專案範例"></a>專案範例</h2><h3 id="u5C08_u6848_u8CC7_u6599_u593E_u7D50_u69CB"><a href="#u5C08_u6848_u8CC7_u6599_u593E_u7D50_u69CB" class="headerlink" title="專案資料夾結構"></a>專案資料夾結構</h3><p>先觀看範例專案的資料夾結構</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">project/</span><br><span class="line">├── bower<span class="class">.json</span></span><br><span class="line">├── <span class="class">.bowerrc</span></span><br><span class="line">└── web</span><br><span class="line">    ├── asset</span><br><span class="line">    │   └── vendor</span><br><span class="line">    │       ├── jquery</span><br><span class="line">    │       └── materialize</span><br><span class="line">    └── index<span class="class">.html</span></span><br><span class="line"></span><br><span class="line"><span class="number">5</span> directories, <span class="number">3</span> files</span><br></pre></td></tr></table></figure>
+<h3 id="bowerrc"><a href="#bowerrc" class="headerlink" title=".bowerrc"></a>.bowerrc</h3><p>project/.bowerrc</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	"<span class="attribute">directory</span>": <span class="value"><span class="string">"web/asset/vendor/"</span></span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="bower-json"><a href="#bower-json" class="headerlink" title="bower.json"></a>bower.json</h3><p>project/bower.json</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    "<span class="attribute">name</span>": <span class="value"><span class="string">"materialize demo"</span></span>,</span><br><span class="line">    "<span class="attribute">description</span>": <span class="value"><span class="string">"test materialize bower package"</span></span>,</span><br><span class="line">    "<span class="attribute">dependencies</span>": <span class="value">&#123;</span><br><span class="line">        "<span class="attribute">materialize</span>": <span class="value"><span class="literal">null</span></span>,</span><br><span class="line">        "<span class="attribute">jquery</span>": <span class="value"><span class="literal">null</span></span><br><span class="line">    </span>&#125;</span>,</span><br><span class="line">    "<span class="attribute">license</span>": <span class="value"><span class="string">"MIT"</span></span>,</span><br><span class="line">    "<span class="attribute">homepage</span>": <span class="value"><span class="string">""</span></span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="u4F7F_u7528bower_u5B89_u88DD_u76F8_u4F9D_u5957_u4EF6"><a href="#u4F7F_u7528bower_u5B89_u88DD_u76F8_u4F9D_u5957_u4EF6" class="headerlink" title="使用bower安裝相依套件"></a>使用bower安裝相依套件</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> project</span><br><span class="line">$ bower install</span><br></pre></td></tr></table></figure>
+<h2 id="u7DB2_u9801_u7BC4_u4F8B"><a href="#u7DB2_u9801_u7BC4_u4F8B" class="headerlink" title="網頁範例"></a>網頁範例</h2><p>參考這篇「<a href="http://materializecss.com/getting-started.html" target="_blank" rel="external">說明</a>」和bower的「<a href="http://bower.io/#getting-started" target="_blank" rel="external">使用說明</a>」。</p>
+<p><a href="/blog-framework-materializecss/example/start/bower/project/web/index.html">Demo</a></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">"utf-8"</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">title</span>&gt;</span><span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">meta</span> <span class="attribute">name</span>=<span class="value">"viewport"</span> <span class="attribute">content</span>=<span class="value">"width=device-width, initial-scale=1.0"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">&lt;!-- https://design.google.com/icons/ //--&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">link</span> <span class="attribute">href</span>=<span class="value">"http://fonts.googleapis.com/icon?family=Material+Icons"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- https://libraries.io/bower/materialize //--&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">link</span> <span class="attribute">type</span>=<span class="value">"text/css"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"asset/vendor/materialize/dist/css/materialize.min.css"</span> <span class="attribute">media</span>=<span class="value">"screen,projection"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">&lt;!-- https://libraries.io/bower/jQuery //--&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"asset/vendor/jquery/dist/jquery.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- https://libraries.io/bower/materialize //--&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"asset/vendor/materialize/dist/js/materialize.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[簡易的範例，示範如何使用Bower，來套用Materialize。]]>
+    
+    </summary>
+    
+      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+    
+      <category term="howto" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/howto/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用 CDN]]></title>
+    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/start/cdn/"/>
+    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/start/cdn/</id>
+    <published>2016-02-02T12:33:48.000Z</published>
+    <updated>2016-02-29T11:20:58.777Z</updated>
+    <content type="html"><![CDATA[<h1 id="u793A_u7BC4_u5982_u4F55_u4F7F_u7528CDN_uFF0C_u4F86_u5957_u7528Materialize"><a href="#u793A_u7BC4_u5982_u4F55_u4F7F_u7528CDN_uFF0C_u4F86_u5957_u7528Materialize" class="headerlink" title="示範如何使用CDN，來套用Materialize"></a>示範如何使用CDN，來套用Materialize</h1><h2 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h2><ul>
+<li><a href="https://cdnjs.com/libraries/jquery" target="_blank" rel="external">jQuery</a></li>
+<li><a href="https://cdnjs.com/libraries/materialize" target="_blank" rel="external">Materialize</a></li>
+<li><a href="https://cdnjs.com/libraries/material-design-icons" target="_blank" rel="external">Material Design icons</a></li>
+</ul>
+<h2 id="ICON"><a href="#ICON" class="headerlink" title="ICON"></a>ICON</h2><ul>
+<li><a href="https://design.google.com/icons/" target="_blank" rel="external">Material icons</a></li>
+</ul>
+<h2 id="u7BC4_u4F8B"><a href="#u7BC4_u4F8B" class="headerlink" title="範例"></a>範例</h2><p>參考這篇「<a href="http://materializecss.com/getting-started.html" target="_blank" rel="external">說明</a>」。</p>
+<p><a href="/blog-framework-materializecss/example/start/cdn/index.html">Demo</a></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">"utf-8"</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">title</span>&gt;</span> CDN <span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">meta</span> <span class="attribute">name</span>=<span class="value">"viewport"</span> <span class="attribute">content</span>=<span class="value">"width=device-width, initial-scale=1.0"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">&lt;!-- https://design.google.com/icons/ //--&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">link</span> <span class="attribute">href</span>=<span class="value">"http://fonts.googleapis.com/icon?family=Material+Icons"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- https://cdnjs.com/libraries/materialize //--&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">link</span> <span class="attribute">type</span>=<span class="value">"text/css"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"</span> <span class="attribute">media</span>=<span class="value">"screen,projection"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">&lt;!-- https://cdnjs.com/libraries/jquery //--&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- https://cdnjs.com/libraries/materialize //--&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[簡易的範例，示範如何使用CDN，來套用Materialize。]]>
+    
+    </summary>
+    
+      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+    
+      <category term="howto" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/howto/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[開站拉！]]></title>
+    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/site/start/"/>
+    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/site/start/</id>
+    <published>2016-02-02T09:11:23.000Z</published>
+    <updated>2016-02-25T18:11:09.414Z</updated>
+    <content type="html"><![CDATA[<h1 id="u958B_u7AD9_u62C9"><a href="#u958B_u7AD9_u62C9" class="headerlink" title="開站拉"></a>開站拉</h1><p>開站拉，這個部落格，用來紀錄對「<a href="http://materializecss.com/" target="_blank" rel="external">Materialize</a>」的探索心得!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[開站拉，這個部落格，用來紀錄對「Materialize」的探索心得!]]>
+    
+    </summary>
+    
+      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+    
+      <category term="site" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/site/"/>
+    
+      <category term="update" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/site/update/"/>
+    
+  </entry>
+  
+</feed>

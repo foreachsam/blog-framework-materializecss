@@ -3,9 +3,9 @@
   <title><![CDATA[Materializecss 探索]]></title>
   <subtitle><![CDATA[Materializecss Exploration]]></subtitle>
   <link href="/blog-framework-materializecss/article/atom.xml" rel="self"/>
-  <link href="http://foreachsam.github.io/blog-framework-materializecss/article/"/>
+  <link href="https://foreachsam.github.io/blog-framework-materializecss/article/"/>
   <updated>2016-03-09T18:35:37.490Z</updated>
-  <id>http://foreachsam.github.io/blog-framework-materializecss/article/</id>
+  <id>https://foreachsam.github.io/blog-framework-materializecss/article/</id>
   
   <author>
     <name><![CDATA[foreachsam]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Nunjucks 範例]]></title>
-    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic-usage/"/>
-    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic-usage/</id>
+    <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic-usage/"/>
+    <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic-usage/</id>
     <published>2016-03-09T18:14:39.000Z</published>
     <updated>2016-03-09T18:35:37.490Z</updated>
     <content type="html"><![CDATA[<h1 id="Nunjucks__u6574_u5408_u7BC4_u4F8B"><a href="#Nunjucks__u6574_u5408_u7BC4_u4F8B" class="headerlink" title="Nunjucks 整合範例"></a>Nunjucks 整合範例</h1><h2 id="u57FA_u672C_u7528_u6CD5"><a href="#u57FA_u672C_u7528_u6CD5" class="headerlink" title="基本用法"></a>基本用法</h2><ul>
@@ -42,18 +42,18 @@
     
     </summary>
     
-      <category term="button" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/button/"/>
+      <category term="button" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/button/"/>
     
-      <category term="index" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+      <category term="index" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
     
-      <category term="integrated" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/integrated/"/>
+      <category term="integrated" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/integrated/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[SideNav 範例索引]]></title>
-    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/example/javascript-sidenav/"/>
-    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/example/javascript-sidenav/</id>
+    <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/example/javascript-sidenav/"/>
+    <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/example/javascript-sidenav/</id>
     <published>2016-02-29T06:33:27.000Z</published>
     <updated>2016-02-29T06:40:48.662Z</updated>
     <content type="html"><![CDATA[<h1 id="SideNav__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15"><a href="#SideNav__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15" class="headerlink" title="SideNav 範例練習索引"></a>SideNav 範例練習索引</h1><ul>
@@ -78,20 +78,20 @@
     
     </summary>
     
-      <category term="index" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+      <category term="index" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
     
-      <category term="sidenav" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/sidenav/"/>
+      <category term="sidenav" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/sidenav/"/>
     
-      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+      <category term="start" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
     
-      <category term="example" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/example/"/>
+      <category term="example" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/example/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[button - scroll to top]]></title>
-    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/extend/button-scroll_to_top/"/>
-    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/extend/button-scroll_to_top/</id>
+    <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/extend/button-scroll_to_top/"/>
+    <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/extend/button-scroll_to_top/</id>
     <published>2016-02-28T08:22:39.000Z</published>
     <updated>2016-02-28T10:41:54.870Z</updated>
     <content type="html"><![CDATA[<h1 id="scroll_to_top__u6309_u9215_u7BC4_u4F8B"><a href="#scroll_to_top__u6309_u9215_u7BC4_u4F8B" class="headerlink" title="scroll to top 按鈕範例"></a>scroll to top 按鈕範例</h1><h2 id="Velocity__u7248"><a href="#Velocity__u7248" class="headerlink" title="Velocity 版"></a>Velocity 版</h2><ul>
@@ -145,22 +145,22 @@
     
     </summary>
     
-      <category term="button" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/button/"/>
+      <category term="button" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/button/"/>
     
-      <category term="index" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+      <category term="index" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
     
-      <category term="extend" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/extend/"/>
+      <category term="extend" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/extend/"/>
     
-      <category term="component" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/extend/component/"/>
+      <category term="component" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/extend/component/"/>
     
-      <category term="button" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/extend/component/button/"/>
+      <category term="button" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/extend/component/button/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Button 範例索引]]></title>
-    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/"/>
-    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/</id>
+    <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/"/>
+    <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/</id>
     <published>2016-02-03T08:52:27.000Z</published>
     <updated>2016-02-29T06:31:36.518Z</updated>
     <content type="html"><![CDATA[<h1 id="Button__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15"><a href="#Button__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15" class="headerlink" title="Button 範例練習索引"></a>Button 範例練習索引</h1><ul>
@@ -179,20 +179,20 @@
     
     </summary>
     
-      <category term="button" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/button/"/>
+      <category term="button" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/button/"/>
     
-      <category term="index" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+      <category term="index" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
     
-      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+      <category term="start" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
     
-      <category term="example" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/example/"/>
+      <category term="example" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/example/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[使用 Bower]]></title>
-    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/start/bower/"/>
-    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/start/bower/</id>
+    <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/start/bower/"/>
+    <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/start/bower/</id>
     <published>2016-02-02T13:59:48.000Z</published>
     <updated>2016-02-29T11:22:27.397Z</updated>
     <content type="html"><![CDATA[<h1 id="u793A_u7BC4_u5982_u4F55_u4F7F_u7528Bower_uFF0C_u4F86_u5957_u7528Materialize"><a href="#u793A_u7BC4_u5982_u4F55_u4F7F_u7528Bower_uFF0C_u4F86_u5957_u7528Materialize" class="headerlink" title="示範如何使用Bower，來套用Materialize"></a>示範如何使用Bower，來套用Materialize</h1><h2 id="Bower"><a href="#Bower" class="headerlink" title="Bower"></a>Bower</h2><ul>
@@ -220,16 +220,16 @@
     
     </summary>
     
-      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+      <category term="start" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
     
-      <category term="howto" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/howto/"/>
+      <category term="howto" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/howto/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[使用 CDN]]></title>
-    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/start/cdn/"/>
-    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/start/cdn/</id>
+    <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/start/cdn/"/>
+    <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/start/cdn/</id>
     <published>2016-02-02T12:33:48.000Z</published>
     <updated>2016-02-29T11:20:58.777Z</updated>
     <content type="html"><![CDATA[<h1 id="u793A_u7BC4_u5982_u4F55_u4F7F_u7528CDN_uFF0C_u4F86_u5957_u7528Materialize"><a href="#u793A_u7BC4_u5982_u4F55_u4F7F_u7528CDN_uFF0C_u4F86_u5957_u7528Materialize" class="headerlink" title="示範如何使用CDN，來套用Materialize"></a>示範如何使用CDN，來套用Materialize</h1><h2 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h2><ul>
@@ -249,16 +249,16 @@
     
     </summary>
     
-      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+      <category term="start" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
     
-      <category term="howto" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/howto/"/>
+      <category term="howto" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/howto/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[開站拉！]]></title>
-    <link href="http://foreachsam.github.io/blog-framework-materializecss/article/read/site/start/"/>
-    <id>http://foreachsam.github.io/blog-framework-materializecss/article/read/site/start/</id>
+    <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/site/start/"/>
+    <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/site/start/</id>
     <published>2016-02-02T09:11:23.000Z</published>
     <updated>2016-02-25T18:11:09.414Z</updated>
     <content type="html"><![CDATA[<h1 id="u958B_u7AD9_u62C9"><a href="#u958B_u7AD9_u62C9" class="headerlink" title="開站拉"></a>開站拉</h1><p>開站拉，這個部落格，用來紀錄對「<a href="http://materializecss.com/" target="_blank" rel="external">Materialize</a>」的探索心得!</p>
@@ -268,11 +268,11 @@
     
     </summary>
     
-      <category term="start" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
+      <category term="start" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/start/"/>
     
-      <category term="site" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/site/"/>
+      <category term="site" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/site/"/>
     
-      <category term="update" scheme="http://foreachsam.github.io/blog-framework-materializecss/article/find/category/site/update/"/>
+      <category term="update" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/site/update/"/>
     
   </entry>
   

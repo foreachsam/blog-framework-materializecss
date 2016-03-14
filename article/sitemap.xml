@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/integration/vue/basic-usage/</loc>
+    <lastmod>2016-03-14T12:32:55.108Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic-usage/</loc>
+    <lastmod>2016-03-14T12:27:40.471Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/start/cdn/</loc>
     <lastmod>2016-03-09T19:23:01.649Z</lastmod>
   </url>
@@ -9,11 +19,6 @@
   <url>
     <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/start/bower/</loc>
     <lastmod>2016-03-09T19:23:01.649Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/integration/nunjucks/basic-usage/</loc>
-    <lastmod>2016-03-09T18:35:37.490Z</lastmod>
   </url>
   
   <url>

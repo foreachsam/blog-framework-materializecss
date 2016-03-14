@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Vue </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- https://design.google.com/icons/ //-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- https://cdnjs.com/libraries/materialize //-->
+<link type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
+
+<!-- https://cdnjs.com/libraries/jquery //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- https://cdnjs.com/libraries/jqueryui/ //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<!-- https://cdnjs.com/libraries/materialize //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+<!-- https://cdnjs.com/libraries/aja  //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/aja/0.4.1/aja.min.js"></script>
+
+<!-- https://cdnjs.com/libraries/vue //-->
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.common.js"></script>//-->
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.common.min.js"></script>//-->
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.js"></script>//-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.min.js"></script>
+
+
+</head>
+<body>
+
+<!-- http://vuejs.org/guide/list.html //-->
+
+<style type="text/css">
+#link_list {
+	display: none;
+}
+</style>
+
+<div id="link_list_container" class="container">
+	<button class="btn" id="refresh_list" v-on:click="refresh">重新載入</button>
+	<main id="content">
+		<div id="link_list">
+			<ul class="collection">
+				<li class="collection-item" v-for="item in list">
+					<a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a>
+				</li>
+			</ul>
+		</div>
+	</main>
+</div>
+
+<script type="text/javascript">
+
+!function(global, $) {
+
+	var app = {
+		api: {
+			findList: 'api/list.json'
+		},
+		ui: {
+			list: '#link_list',
+			btn: {
+				refresh: '#refresh_list'
+			}
+		},
+		easing: [],
+		effects: [
+			"blind",
+			"bounce",
+			"clip",
+			"explode",
+			"fold",
+			"highlight",
+			"puff",
+			"pulsate",
+			"scale",
+			"shake",
+			"size",
+			"slide",
+		],
+		pickRandomIndex: function(min, max) {
+			return Math.floor(Math.random()*(max-min+1)+min);
+		},
+		pickEasing: function() {
+			var i = this.pickRandomIndex(0, this.easing.length-1);
+			return this.easings[i];
+		},
+		pickEffect: function() {
+			var i = this.pickRandomIndex(0, this.effects.length-1);
+			return this.effects[i];
+		},
+		showList: function() {
+			var effect = this.pickEffect();
+			console.log(effect);
+			$(this.ui.list).hide(effect);
+			$(this.ui.list).show(effect); //https://jqueryui.com/easing/
+			return this;
+		},
+		renderList: function(data) {
+			this.vm.list = data.list;
+			return this;
+		},
+		refreshList: function(data) {
+			this.renderList(data);
+			this.showList();
+			return this;
+		},
+		findList: function(args) {
+			var self = this;
+			//http://microjs.com/#ajax
+			aja()
+				.url(self.api.findList)
+				.method('get')
+				.on('success', function(rs){
+					var cmd = rs.cmd;
+					if (cmd != 1) {
+						return;
+					}
+					self.refreshList(rs);
+				})
+				.go()
+			;
+			return this;
+		},
+		init: function() {
+			this.initVm();
+			return this;
+		},
+		initVm: function() {
+			var self = this;
+			this.vm = new Vue({
+				el: '#link_list_container',
+				data: {
+					list: []
+				},
+				methods: {
+					refresh: function(evt) {
+						self.findList();
+					}
+				}
+			});
+		},
+		run: function() {
+			this.init();
+			this.findList({});
+			return this;
+		}
+	};
+	global.app = app;
+}(window, jQuery);
+
+$(document).ready(function(){
+	window.app
+		.run()
+	;
+});
+</script>
+
+</body>
+</html>

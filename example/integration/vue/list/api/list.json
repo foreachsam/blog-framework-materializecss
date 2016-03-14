@@ -1,0 +1,30 @@
+{
+	"cmd": 1,
+	"list" : [
+		{
+			"title": "Google",
+			"url": "http://www.google.com",
+			"image": "",
+			"target": "_blank"
+		},
+		{
+			"title": "Yahoo",
+			"url": "http://www.yahoo.com",
+			"image": "",
+			"target": "_blank"
+		},
+		{
+			"title": "Facebook",
+			"url": "http://www.facebook.com",
+			"image": "",
+			"target": "_blank"
+		},
+		{
+			"title": "Twitter",
+			"url": "http://www.twitter.com",
+			"image": "",
+			"target": "_blank"
+		}
+
+	]
+}

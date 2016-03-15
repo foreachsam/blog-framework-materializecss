@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Materializecss Exploration]]></subtitle>
   <link href="/blog-framework-materializecss/article/atom.xml" rel="self"/>
   <link href="https://foreachsam.github.io/blog-framework-materializecss/article/"/>
-  <updated>2016-03-14T12:32:55.108Z</updated>
+  <updated>2016-03-14T17:35:21.568Z</updated>
   <id>https://foreachsam.github.io/blog-framework-materializecss/article/</id>
   
   <author>
@@ -13,6 +13,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[jquery-template 範例]]></title>
+    <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/integration/jquery-template/basic-usage/"/>
+    <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/integration/jquery-template/basic-usage/</id>
+    <published>2016-03-14T17:21:39.000Z</published>
+    <updated>2016-03-14T17:35:21.568Z</updated>
+    <content type="html"><![CDATA[<h1 id="jquery-template__u6574_u5408_u7BC4_u4F8B"><a href="#jquery-template__u6574_u5408_u7BC4_u4F8B" class="headerlink" title="jquery-template 整合範例"></a>jquery-template 整合範例</h1><h2 id="u9032_u968E_u61C9_u7528"><a href="#u9032_u968E_u61C9_u7528" class="headerlink" title="進階應用"></a>進階應用</h2><ul>
+<li><a href="/blog-framework-materializecss/example/integration/vue/list/index.html">list</a></li>
+<li>list / <a href="/blog-framework-materializecss/example/integration/vue/list/demo_001.html">demo 001</a></li>
+<li>list / <a href="/blog-framework-materializecss/example/integration/vue/list/demo_002.html">demo 002</a></li>
+</ul>
+<h2 id="u76F8_u95DC_u7DB2_u5740"><a href="#u76F8_u95DC_u7DB2_u5740" class="headerlink" title="相關網址"></a>相關網址</h2><ul>
+<li><a href="http://codepb.github.io/jquery-template/" target="_blank" rel="external">jquery-template</a></li>
+<li><a href="https://github.com/codepb/jquery-template" target="_blank" rel="external">GitHub</a></li>
+<li><a href="https://libraries.io/bower/jquery-load-template" target="_blank" rel="external">Bower</a></li>
+<li><a href="https://www.jsdelivr.com/projects/jquery.loadtemplate" target="_blank" rel="external">CDN</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[jquery-template 整合範例]]>
+    
+    </summary>
+    
+      <category term="index" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+    
+      <category term="render" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/render/"/>
+    
+      <category term="integrated" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/integrated/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Vue 範例]]></title>

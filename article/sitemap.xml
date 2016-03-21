@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/</loc>
+    <lastmod>2016-03-21T15:27:49.604Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/integration/jquery-template/basic-usage/</loc>
     <lastmod>2016-03-14T17:35:21.568Z</lastmod>
   </url>
@@ -29,11 +34,6 @@
   <url>
     <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/example/javascript-sidenav/</loc>
     <lastmod>2016-02-29T06:40:48.662Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/</loc>
-    <lastmod>2016-02-29T06:31:36.518Z</lastmod>
   </url>
   
   <url>

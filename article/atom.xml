@@ -225,9 +225,11 @@
     <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/"/>
     <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/example/component-button/</id>
     <published>2016-02-03T08:52:27.000Z</published>
-    <updated>2016-02-29T06:31:36.518Z</updated>
-    <content type="html"><![CDATA[<h1 id="Button__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15"><a href="#Button__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15" class="headerlink" title="Button 範例練習索引"></a>Button 範例練習索引</h1><ul>
-<li><a href="http://materializecss.com/buttons.html" target="_blank" rel="external">官方說明</a></li>
+    <updated>2016-03-21T15:27:49.604Z</updated>
+    <content type="html"><![CDATA[<h1 id="Button__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15"><a href="#Button__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15" class="headerlink" title="Button 範例練習索引"></a>Button 範例練習索引</h1><h2 id="u8AAA_u660E_u9801"><a href="#u8AAA_u660E_u9801" class="headerlink" title="說明頁"></a>說明頁</h2><ul>
+<li>Materialize css / Components / <a href="http://materializecss.com/buttons.html" target="_blank" rel="external">Buttons</a></li>
+<li>Material design / Components / <a href="https://www.google.com/design/spec/components/buttons.html" target="_blank" rel="external">Buttons</a></li>
+<li>Material design / Components / Buttons / <a href="https://www.google.com/design/spec/components/buttons-floating-action-button.html#" target="_blank" rel="external">Floating Action Button </a></li>
 </ul>
 <h2 id="u7DF4_u7FD2_u7BC4_u4F8B"><a href="#u7DF4_u7FD2_u7BC4_u4F8B" class="headerlink" title="練習範例"></a>練習範例</h2><ul>
 <li><a href="/blog-framework-materializecss/example/component/button/fixed-action-btn/programatically.html">fixed-action-btn-programatically</a></li>

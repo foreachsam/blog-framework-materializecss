@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> list.js </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- https://design.google.com/icons/ //-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- https://cdnjs.com/libraries/materialize //-->
+<link type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
+
+<!-- https://cdnjs.com/libraries/jquery //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- https://cdnjs.com/libraries/jqueryui/ //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<!-- https://cdnjs.com/libraries/materialize //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+<!-- https://cdnjs.com/libraries/list.js //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
+
+
+</head>
+<body>
+
+<!-- http://www.listjs.com/docs //-->
+
+<style type="text/css">
+
+</style>
+
+
+<div id="hacker-list">
+	<ul class="list">
+		<li data-id="1">
+			<a href="http://javve.com" class="link name">Jonny</a>
+			<p class="born timestamp" data-timestamp="1234">1986</p>
+			<img class="image" src="javve.jpg" />
+		</li>
+	</ul>
+</div>
+
+<script type="text/javascript">
+!function(global, $){
+	var options = {
+		valueNames: [
+			'name',
+			'born', {
+				data: ['id']
+			}, {
+				name: 'timestamp',
+				attr: 'data-timestamp'
+			}, {
+				name: 'link',
+				attr: 'href'
+			}, {
+				name: 'image',
+				attr: 'src'
+			}
+		]
+	};
+
+	var hackerList = new List('hacker-list', options);
+
+	hackerList.add({
+		name: 'Jonas',
+		born: '1985',
+		id: 2,
+		timestamp: '1337',
+		link: 'http://arnklint.com',
+		image: 'jonas.gif'
+	});
+    console.log(hackerList);
+    //hackerList.add({name:'name_add_1', city:"city_add_1"});
+}(window, jQuery);
+
+
+</script>
+
+</body>
+</html>

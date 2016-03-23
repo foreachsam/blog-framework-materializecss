@@ -157,9 +157,11 @@
     <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/example/javascript-sidenav/"/>
     <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/example/javascript-sidenav/</id>
     <published>2016-02-29T06:33:27.000Z</published>
-    <updated>2016-02-29T06:40:48.662Z</updated>
-    <content type="html"><![CDATA[<h1 id="SideNav__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15"><a href="#SideNav__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15" class="headerlink" title="SideNav 範例練習索引"></a>SideNav 範例練習索引</h1><ul>
-<li><a href="http://materializecss.com/side-nav.html" target="_blank" rel="external">官方說明</a></li>
+    <updated>2016-03-23T15:15:32.523Z</updated>
+    <content type="html"><![CDATA[<h1 id="SideNav__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15"><a href="#SideNav__u7BC4_u4F8B_u7DF4_u7FD2_u7D22_u5F15" class="headerlink" title="SideNav 範例練習索引"></a>SideNav 範例練習索引</h1><h2 id="u8AAA_u660E_u9801"><a href="#u8AAA_u660E_u9801" class="headerlink" title="說明頁"></a>說明頁</h2><ul>
+<li>Materialize css / Components / <a href="http://materializecss.com/side-nav.html" target="_blank" rel="external">SideNav</a></li>
+<li>Material design / Patterns / <a href="https://www.google.com/design/spec/patterns/navigation.html" target="_blank" rel="external">Navigation</a></li>
+<li>Material design / Patterns / <a href="https://www.google.com/design/spec/patterns/navigation-drawer.html" target="_blank" rel="external">Navigation drawer</a></li>
 </ul>
 <h2 id="u7DF4_u7FD2_u7BC4_u4F8B"><a href="#u7DF4_u7FD2_u7BC4_u4F8B" class="headerlink" title="練習範例"></a>練習範例</h2><ul>
 <li><a href="/blog-framework-materializecss/example/javascript/sidenav/basic/index.html">basic</a></li>

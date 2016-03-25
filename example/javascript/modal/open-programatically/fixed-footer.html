@@ -47,7 +47,8 @@ $(document).ready(function(){
 			var data = args || {};
 			var xhr = $.ajax({
 					url: 'api.json',
-					method: 'POST',
+					//method: 'POST',
+					method: 'GET',
 					data: data,
 					dataType: 'json'
 				})

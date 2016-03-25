@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Bottom Sheet Modal - Materialize Css </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- https://design.google.com/icons/ //-->
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- https://cdnjs.com/libraries/materialize //-->
+<link type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
+
+<!-- https://cdnjs.com/libraries/jquery //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- https://cdnjs.com/libraries/materialize //-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+</head>
+<body>
+
+<!-- http://materializecss.com/side-nav.html //-->
+
+<style type="text/css">
+
+</style>
+
+<!-- Modal Trigger -->
+<a id="btn_open" class="waves-effect waves-light btn modal-trigger" href="#mda">Open Modal</a>
+
+<!-- Modal Structure -->
+<div id="mda" class="modal bottom-sheet">
+	<div class="modal-content">
+		<h4>Modal Header</h4>
+		<p>A bunch of text</p>
+	</div>
+	<div class="modal-footer">
+		<button id="btn_save" class="waves-effect waves-green btn">Save</button>
+		<a href="javascript:;" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var srvice = {
+		save: function(args) {
+			//http://api.jquery.com/jquery.ajax/
+			var data = args || {};
+			var xhr = $.ajax({
+					url: 'api.json',
+					method: 'POST',
+					data: data,
+					dataType: 'json'
+				})
+			;
+			return xhr;
+		}
+	};
+	$('#btn_open').on('click', function(e) {
+		e.preventDefault();
+		$('#mda').openModal();
+	});
+
+	$('#btn_save').on('click', function(e) {
+		e.preventDefault();
+
+		srvice.save()
+			.done(function(rs) {
+				var cmd = rs.cmd;
+				if (cmd != 1) {
+					console.log('error');
+					return;
+				}
+				$('#mda').closeModal();
+			})
+			.fail(function() {
+				console.log('error');
+			})
+		;
+
+
+	});
+});
+</script>
+
+</body>
+</html>

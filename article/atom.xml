@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Materializecss Exploration]]></subtitle>
   <link href="/blog-framework-materializecss/article/atom.xml" rel="self"/>
   <link href="https://foreachsam.github.io/blog-framework-materializecss/article/"/>
-  <updated>2016-03-26T08:39:04.618Z</updated>
+  <updated>2016-05-06T06:29:05.595Z</updated>
   <id>https://foreachsam.github.io/blog-framework-materializecss/article/</id>
   
   <author>
@@ -13,6 +13,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Layout 範例]]></title>
+    <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/layout/start/"/>
+    <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/layout/start/</id>
+    <published>2016-05-06T05:26:28.000Z</published>
+    <updated>2016-05-06T06:29:05.595Z</updated>
+    <content type="html"><![CDATA[<h1 id="Layout__u7BC4_u4F8B"><a href="#Layout__u7BC4_u4F8B" class="headerlink" title="Layout 範例"></a>Layout 範例</h1><p>請先研讀</p>
+<ul>
+<li><a href="http://materializecss.com/navbar.html" target="_blank" rel="external">http://materializecss.com/navbar.html</a></li>
+<li><a href="http://materializecss.com/side-nav.html" target="_blank" rel="external">http://materializecss.com/side-nav.html</a></li>
+<li><a href="http://materializecss.com/footer.html" target="_blank" rel="external">http://materializecss.com/footer.html</a></li>
+</ul>
+<p>就可以很快速的湊成一個簡單的「<a href="/blog-framework-materializecss/example/layout/basic/index.html">Layout</a>」</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[ayout 範例]]>
+    
+    </summary>
+    
+      <category term="index" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/index/"/>
+    
+      <category term="render" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/tag/render/"/>
+    
+      <category term="layout" scheme="https://foreachsam.github.io/blog-framework-materializecss/article/find/category/layout/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Modal 範例索引]]></title>

@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/layout/start/</loc>
+    <lastmod>2016-05-06T06:29:05.595Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://foreachsam.github.io/blog-framework-materializecss/article/read/integration/vue/basic-usage/</loc>
     <lastmod>2016-03-26T08:53:40.218Z</lastmod>
   </url>

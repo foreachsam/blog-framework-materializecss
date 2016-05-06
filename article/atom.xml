@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Materializecss Exploration]]></subtitle>
   <link href="/blog-framework-materializecss/article/atom.xml" rel="self"/>
   <link href="https://foreachsam.github.io/blog-framework-materializecss/article/"/>
-  <updated>2016-05-06T06:29:05.595Z</updated>
+  <updated>2016-05-06T08:52:55.793Z</updated>
   <id>https://foreachsam.github.io/blog-framework-materializecss/article/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="https://foreachsam.github.io/blog-framework-materializecss/article/read/layout/start/"/>
     <id>https://foreachsam.github.io/blog-framework-materializecss/article/read/layout/start/</id>
     <published>2016-05-06T05:26:28.000Z</published>
-    <updated>2016-05-06T06:29:05.595Z</updated>
+    <updated>2016-05-06T08:52:55.793Z</updated>
     <content type="html"><![CDATA[<h1 id="Layout__u7BC4_u4F8B"><a href="#Layout__u7BC4_u4F8B" class="headerlink" title="Layout 範例"></a>Layout 範例</h1><p>請先研讀</p>
 <ul>
 <li><a href="http://materializecss.com/navbar.html" target="_blank" rel="external">http://materializecss.com/navbar.html</a></li>
@@ -27,6 +27,16 @@
 <li><a href="http://materializecss.com/footer.html" target="_blank" rel="external">http://materializecss.com/footer.html</a></li>
 </ul>
 <p>就可以很快速的湊成一個簡單的「<a href="/blog-framework-materializecss/example/layout/basic/index.html">Layout</a>」</p>
+<p>然後再參考下面網址列的「Color Palette」來調整顏色。</p>
+<ul>
+<li><a href="http://materializecss.com/color.html" target="_blank" rel="external">http://materializecss.com/color.html</a></li>
+</ul>
+<p>例如</p>
+<p>可以將上方顏色改為「teal darken-2」</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">nav</span> <span class="attribute">class</span>=<span class="value">"teal darken-2"</span> <span class="attribute">role</span>=<span class="value">"navigation"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>將下方的顏色改為「brown darken-1」</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">footer</span> <span class="attribute">class</span>=<span class="value">"page-footer brown darken-1"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>改完顏色後的<a href="/blog-framework-materializecss/example/layout/color/teal/index.html">Layout</a>」</p>
 ]]></content>
     <summary type="html">
     <![CDATA[ayout 範例]]>

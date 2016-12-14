@@ -18,11 +18,16 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 
 <!-- https://cdnjs.com/libraries/vue //-->
-<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.common.js"></script>//-->
-<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.common.min.js"></script>//-->
-<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.js"></script>//-->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.min.js"></script>
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.common.js"></script>//-->
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.common.min.js"></script>//-->
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.js"></script>//-->
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.min.js"></script>//-->
 
+
+<!-- https://unpkg.com/vue //-->
+<!-- https://unpkg.com/vue@2.1.6/ //-->
+<script type="text/javascript" src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- https://vuejs.org/v2/guide/index.html //-->
 
 </head>
 <body>
@@ -41,7 +46,7 @@
 		<div id="link_list">
 			<ul class="collection">
 				<li class="collection-item" v-for="item in list">
-					<a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a>
+					<a :href="item.url" :target="item.target">{{ item.title }}</a>
 				</li>
 			</ul>
 		</div>
@@ -163,7 +168,7 @@
 
 ;(function(global, $) {
 	$(document).ready(function(){
-		window.app
+		global.app
 			.run()
 		;
 	});

@@ -50,7 +50,7 @@
 
 <script type="text/javascript">
 
-!function(global, $) {
+;(function(global, $) {
 
 	var app = {
 		api: {
@@ -161,15 +161,15 @@
 		}
 	};
 	global.app = app;
-}(window, jQuery);
+})(window, jQuery);
 
 ;(function(global, $) {
 $(document).ready(function(){
 	window.app
 		.run()
 	;
-});
 }(window, jQuery);
+
 </script>
 
 </body>

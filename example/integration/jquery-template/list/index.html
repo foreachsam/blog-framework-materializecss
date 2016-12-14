@@ -49,7 +49,7 @@
 
 <script type="text/javascript">
 
-!function(global, $) {
+;(function(global, $) {
 	var app = {
 		api: {
 			findList: 'api/list.json'
@@ -155,13 +155,15 @@
 		}
 	};
 	global.app = app;
-}(window, jQuery);
+})(window, jQuery);
 
-$(document).ready(function(){
-	window.app
-		.run()
-	;
-});
+;(function(global, $) {
+	$(document).ready(function(){
+		window.app
+			.run()
+		;
+	});
+})(window, jQuery);
 </script>
 
 </body>

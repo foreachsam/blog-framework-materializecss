@@ -54,7 +54,7 @@
 
 <script type="text/javascript">
 
-!function(global, $) {
+;(function(global, $) {
 	var app = {
 		api: {
 			findList: 'api/list.json'
@@ -158,7 +158,7 @@
 			var values = [];
 
 			this.vm = new List('link_list', options, values);
-			
+
 			return this;
 		},
 		init: function() {
@@ -178,13 +178,16 @@
 		}
 	};
 	global.app = app;
-}(window, jQuery);
+})(window, jQuery);
 
-$(document).ready(function(){
-	window.app
-		.run()
-	;
-});
+
+;(function(global, $) {
+	$(document).ready(function(){
+		window.app
+			.run()
+		;
+	});
+})(window, jQuery);
 </script>
 
 </body>

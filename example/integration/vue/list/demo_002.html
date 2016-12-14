@@ -53,7 +53,7 @@
 
 <script type="text/javascript">
 
-!function(global, $) {
+;(function(global, $) {
 
 	var app = {
 		api: {
@@ -151,11 +151,13 @@
 	global.app = app;
 }(window, jQuery);
 
-$(document).ready(function(){
-	window.app
-		.run()
-	;
-});
+;(function(global, $) {
+	$(document).ready(function(){
+		window.app
+			.run()
+		;
+	});
+}(window, jQuery);
 </script>
 
 </body>

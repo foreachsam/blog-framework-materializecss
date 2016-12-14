@@ -42,15 +42,15 @@
 
 
 <script type="text/javascript">
-!function(global, $){
+;(function(global, $){
 	var options = {
-        valueNames: ['name', 'city']
-    };
+		valueNames: ['name', 'city']
+	};
 
-    var hackerList = new List('hacker-list', options);
-    console.log(hackerList);
-    hackerList.add({name: 'Jonas', city:'Berlin'});
-}(window, jQuery);
+	var hackerList = new List('hacker-list', options);
+	console.log(hackerList);
+	hackerList.add({name: 'Jonas', city:'Berlin'});
+})(window, jQuery);
 
 
 </script>

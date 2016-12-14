@@ -1,5 +1,5 @@
 
-!function(global, $) {
+;(function(global, $) {
 	var ui = {
 		scrollToTop: function(){
 			$('body').velocity('scroll', {duration: 1000, easing: 'spring'}); //http://julian.com/research/velocity/#scroll
@@ -33,4 +33,4 @@
 
 	});
 	global.ui = ui;
-}(window, jQuery);
+})(window, jQuery);
